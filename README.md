@@ -1,7 +1,7 @@
 
-# Scene Detector
+# Scene Detective
 
-Scene detector combines FFMPEG's blackdetect and silencedetect functions (as well as some additional logic) to detect chapters/scene breaks in pieces of content and write them to your video file
+Scene Detective combines FFMPEG's blackdetect and silencedetect functions (as well as some additional logic) to detect chapters/scene breaks in pieces of content and write them to your video file
 
 ## Requirements
 - bash
