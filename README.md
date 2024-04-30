@@ -16,14 +16,18 @@ I've only tested this on a Windows machine, so I'll describe my process below.
 - grep from https://gnuwin32.sourceforge.net/packages/grep.htm (I chose "Complete package, except sources)
 - mkvpropedit from https://mkvtoolnix.download/downloads.html (It installs with MKVToolNix)
 - FFMPEG from https://ffmpeg.org/download.html (Unzip to your desired install location)
+  
 2. Add the "bin" subdirectory for FFMPEG and grep to the "path" environment variable on Windows. For instructions on adding environment variables, see https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14)
+
 3. Add the main directory for MKVToolNix to the "path" environment variable
+
 4. Place scenedetect.sh in the same directory as the file being processed (if a single file) or the parent directory of the folder being processed (if a batch file)
 
 ## Usage
 To run the script:
 
 1.  Right click in the directory that contains the script file and select "Git Bash here"
+
 2.  Run the command:
 ```bash scenedetect.sh [flags] [file/foldername]```
 
