@@ -48,6 +48,7 @@ The following optional flags are currently supported. They must be added to the 
 -m      sets the mode, only accepts: debug
 -e      sets the end of the "intro" for the currently processing file(s), accepts a value in seconds (ex: 240)
 -b      adjustments logic checks for breaks, only accepts "short"
+-s      adjusts the starting timecode for chapters to be written, accepts a value in seconds (ex: 240)
 ```
 
 ### Uses for Flags
@@ -77,3 +78,5 @@ If you want a scene on only one side of an intro, I recommend trying ```-e 0```.
 #### Breaks Flag
 This flag currently only accepts the option ```short```. This flag should only be used when a piece of content has very short scene breaks. **Note: If there are 0 black frames or silences, this will not help to correct that**
 
+#### Starting Time Flag
+This flag can be used to adjust the starting timecode that chapters will be written. Any matches found prior to the timecode given will be discarded and not written as chapters. This can be helpful for avoiding writing *any* chapters for an intro.
