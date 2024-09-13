@@ -42,7 +42,7 @@ The following optional flags are currently supported. They must be added to the 
 ```
 -v      sets the video quality, accepts: lq, vlq, vvlq, and hq
 -a      sets the audio quality, accepts: lq, vlq, vvlq, and hq
--t      sets the content type, accepts: L
+-t      sets the content type, accepts: live, anim
 -d      sets the minimum duration for a break, accepts a value in seconds (ex: 240)
 -x      sets the maximum duration for a break, accepts a value in seconds (ex: 240)
 -m      sets the mode, only accepts: debug
